@@ -10,6 +10,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+/********white line********/
+.line{
+  border-bottom: 2px solid #fff;
+}
+
 /****************Navbar.jsx*******************/
 .logo img {
   width: 90px;
@@ -244,6 +249,7 @@ label {
   }
 } */
 
+
 /******************About Us.jsx********************/
 .about-us {
   background-image: url(images/rough.jpg);
@@ -253,16 +259,18 @@ label {
   padding-top: 50px;
 }
 .a-heading h1 {
-  color: #ffffff;
+  color: #d0ff00;
   font-size: 2.5rem;
   margin: 0px;
   padding: 0px;
 }
 .a-heading p {
-  color: rgba(247, 247, 247, 0.678);
+  color: #e6dbdb;
   font-size: 1rem;
+  font-weight: bold;
   margin-top: 10px;
   padding: 0px;
+  text-decoration: underline;
 }
 .a-heading {
   text-align: center;
@@ -406,7 +414,7 @@ label {
 /******************Releases.js********************/
 #releases{
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   background-color: #000000;
   background-image: url(images/background1.jpg);
   background-position: center;
@@ -414,19 +422,16 @@ label {
   box-sizing: border-box;
   padding-top: 50px;
 }
-/*white line*/
-.line{
-  border-bottom: 2px solid #fff;
-}
 .r-heading h1 {
-  color: #ffffff;
+  color: #d0ff00;
   font-size: 2.5rem;
   margin: 0px;
   padding: 0px;
 }
 .r-heading p {
-  color: rgba(247, 247, 247, 0.678);
+  color: #e6dbdb;
   font-size: 1rem;
+  font-weight: bold;
   margin-top: 10px;
   padding: 0px;
   text-decoration: underline;
@@ -441,14 +446,9 @@ label {
   align-items: center;
   justify-content: space-between;
   margin-top: 100px;
-  padding: 50px 5% 0px 5%;
+  padding: 50px 10% 0px 10%;
   position: relative;
 }
-video{
-  width: 20rem;
-  height: 40rem;
-}
-
 .features-text {
   width: 45%;
   color: #fff;
@@ -490,15 +490,22 @@ video{
 }
 .features-model {
   width: 50%;
+  padding-bottom: 10em;
 }
 .features-model p {
-  font-size: 1.2rem;
-  color: #b4b4b4;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffffff;
 }
 
-/*************Services.jsx / Box.jsx*****************/
+/*************Gigs.jsx / Box.jsx*****************/
 #services {
-  margin-top: 120px;
+  /* margin-top: 120px; */
+  background-color: #000000;
+  background-image: url(images/cross.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
   box-sizing: border-box;
@@ -507,20 +514,22 @@ video{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 
 .s-heading h1 {
-  color: #ffffff;
+  color: #d0ff00;
   font-size: 3rem;
   margin: 0px;
   padding: 0px;
 }
 .s-heading p {
-  color: rgba(247, 247, 247, 0.678);
+  color: #e6dbdb;
   font-size: 1rem;
+  font-weight: bold;
   margin: 0px;
   padding: 0px;
+  text-decoration: underline;
 }
 .s-heading {
   text-align: center;
@@ -596,6 +605,63 @@ video{
   transform: translateY(-10px);
   transition: all ease 0.3s;
 }
+
+/****************Project.js***********************/
+#projects{
+  height: 100vh;
+  padding-top: 80px;
+  background-color: #000000;
+  background-image: url(images/black.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  font-family: calibri;
+}
+.p-heading h1 {
+  color: #d0ff00;
+  font-size: 2.5rem;
+  margin: 0px;
+  padding: 0px;
+}
+.p-heading p {
+  color: #e6dbdb;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 0px;
+  text-decoration: underline;
+}
+.p-heading {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: -120px;
+}
+.work{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+  color: #fff
+}
+.work-1{
+  background-color: rgb(149, 160, 64);
+  padding: 10px;
+  border-radius: 10px;
+}
+.work-2{
+  background-color: rgb(118, 125, 59);
+  padding: 10px;
+  border-radius: 10px;
+}
+.work-3{
+  background-color: rgb(149, 160, 64);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
 
 /**********Gallery.jsx***********/
 .Active {
@@ -721,18 +787,47 @@ video{
   margin-left: 10px;
   font-size: 30px;
   box-shadow: -3px -3px 5px 0px #ffffffa6, 3px 3px 5px 0px #695a5a4a;
+  display: inline-block;
+  animation: float 5s ease-in-out infinite;
 }
+/* .fa-linkedin{
+  animation-delay: 0s;
+}
+.fa-github-square{
+  animation-delay: 1s;
+}
+.fa-instagram-square{
+  animation-delay: 2s;
+} 
+.fa-youtube-square{
+  animation-delay: 3s;
+}
+.fa-spotify{
+  animation-delay: 4s;
+} */
+@keyframes float {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
 .footerDiv i:hover {
   box-shadow: -3px -3px 5px 0px #ffffffa6 inset, 3px 3px 5px 0px #3b37374a inset;
 }
 .footerDiv1 {
-  color: rgb(35, 35, 216);
+  color: rgb(1, 120, 255);
 }
 .footerDiv2 {
   color: white;
 }
 .footerDiv3 {
-  color: rgb(231, 45, 123);
+  color: rgb(235, 33, 100);
 }
 .footerDiv4 {
   color: red;
