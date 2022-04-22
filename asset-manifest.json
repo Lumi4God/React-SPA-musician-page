@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-single-page-app/static/css/main.fec593aa.css",
-    "main.js": "/react-single-page-app/static/js/main.d0ee18e6.js",
-    "static/media/drum.jpg": "/react-single-page-app/static/media/drum.110c8d0993025ae662ca.jpg",
-    "static/media/TOJ.jpeg": "/react-single-page-app/static/media/TOJ.db25c4943418df7c385e.jpeg",
-    "static/media/background.jpg": "/react-single-page-app/static/media/background.3f6227964bf4e9f5bc58.jpg",
-    "static/media/studio.jpg": "/react-single-page-app/static/media/studio.27d22e193454a47b5d4f.jpg",
-    "static/media/logo1.jpg": "/react-single-page-app/static/media/logo1.2e3c9f53a763f8bab217.jpg",
-    "static/media/background1.jpg": "/react-single-page-app/static/media/background1.9d1461ed67071a3cc629.jpg",
-    "static/media/download.jpeg": "/react-single-page-app/static/media/download.e7f3f8ebc73003d24db0.jpeg",
-    "static/media/rough.jpg": "/react-single-page-app/static/media/rough.4ae26fd8bba960a1e569.jpg",
-    "static/media/mic4.jpg": "/react-single-page-app/static/media/mic4.77ada478c70b412169ad.jpg",
-    "static/media/name.jpeg": "/react-single-page-app/static/media/name.5ab1d1deea8f3553c1d8.jpeg",
-    "static/media/black.jpg": "/react-single-page-app/static/media/black.c9a86c4f59413d25d2f2.jpg",
-    "index.html": "/react-single-page-app/index.html",
-    "main.fec593aa.css.map": "/react-single-page-app/static/css/main.fec593aa.css.map",
-    "main.d0ee18e6.js.map": "/react-single-page-app/static/js/main.d0ee18e6.js.map"
+    "main.css": "/React-SPA-musician-page/static/css/main.503495d1.css",
+    "main.js": "/React-SPA-musician-page/static/js/main.a9f9571a.js",
+    "static/media/drum.jpg": "/React-SPA-musician-page/static/media/drum.110c8d0993025ae662ca.jpg",
+    "static/media/TOJ.jpeg": "/React-SPA-musician-page/static/media/TOJ.db25c4943418df7c385e.jpeg",
+    "static/media/background.jpg": "/React-SPA-musician-page/static/media/background.3f6227964bf4e9f5bc58.jpg",
+    "static/media/studio.jpg": "/React-SPA-musician-page/static/media/studio.27d22e193454a47b5d4f.jpg",
+    "static/media/logo1.jpg": "/React-SPA-musician-page/static/media/logo1.2e3c9f53a763f8bab217.jpg",
+    "static/media/background1.jpg": "/React-SPA-musician-page/static/media/background1.9d1461ed67071a3cc629.jpg",
+    "static/media/download.jpeg": "/React-SPA-musician-page/static/media/download.e7f3f8ebc73003d24db0.jpeg",
+    "static/media/rough.jpg": "/React-SPA-musician-page/static/media/rough.4ae26fd8bba960a1e569.jpg",
+    "static/media/mic4.jpg": "/React-SPA-musician-page/static/media/mic4.77ada478c70b412169ad.jpg",
+    "static/media/name.jpeg": "/React-SPA-musician-page/static/media/name.5ab1d1deea8f3553c1d8.jpeg",
+    "static/media/black.jpg": "/React-SPA-musician-page/static/media/black.c9a86c4f59413d25d2f2.jpg",
+    "index.html": "/React-SPA-musician-page/index.html",
+    "main.503495d1.css.map": "/React-SPA-musician-page/static/css/main.503495d1.css.map",
+    "main.a9f9571a.js.map": "/React-SPA-musician-page/static/js/main.a9f9571a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fec593aa.css",
-    "static/js/main.d0ee18e6.js"
+    "static/css/main.503495d1.css",
+    "static/js/main.a9f9571a.js"
   ]
 }
